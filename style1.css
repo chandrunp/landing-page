@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.top{
+    width: 100%;
+    min-height: 80vh;
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-Desktop-Backgrounds.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color:rgb(10, 10, 3) (139, 81, 81);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+width: 100%;
+padding: 0 10vh;
+color:wheat ;
+bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.text .image{
+    background-image: url(https://th.bing.com/th/id/OIP.ewRfMU-58Iustx-NiDinuAHaEo?rs=1&pid=ImgDetMain);
+    background-position:left ;
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    width: 220px;
+
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext h2 {
+    font-size: 25px;
+text-align: ;
+}
+.rtext p{
+    font-size: 20px;
+    text-align: left;
+}
+.icons{
+    
+    padding: 20px
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+
+}
+.b1{
+width: 30%;
+min-height: inherit;
+background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1723308025~exp=1723311625~hmac=9b623f4a5025f5298697ec47ac45a1f3c9bc75ad7fa6e852275467987663815e&w=826);
+background-size: cover;
+background-position: center;
+
+
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?cs=srgb&dl=pexels-sourav-mishra-3660527.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+
+} 
+.b2.up h1{
+    text-align: center;
+    padding: 30%;
+}
+.b2.up p{
+    text-align: center;
+    counter-reset: white;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://marketingaccesspass.com/wp-content/uploads/2015/10/Podcast-Website-Design-Background-Image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .downh1{
+    text-align: end;
+    padding: 30px;
+    color: aquamarine;
+}
+.b3{
+width: 40%;
+min-height: inherit;
+background-image: url(https://th.bing.com/th/id/OIP.am20lreLs--bbOUcnY2KeQAAAA?w=303&h=180&c=7&r=0&o=5&pid=1.7);
+background-size:cover ;
+background-position: left;
+padding: 30px;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50px ;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+    text-align: left;
+
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .text h1{
+        font-size: 5vh;
+
+    }
+    .text image{
+        height: 200px;
+        width: 500px;
+        margin: 20px;
+    }.rtext{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .rtext p{
+        margin-top:10px ;
+
+    }.icons{
+        margin-top: 10px;
+
+    }
+}
